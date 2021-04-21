@@ -202,6 +202,7 @@ li.closeSocial {
         -ms-transition: 1s ease-out; /* Internet Explorer */
         -o-transition: 1s ease-out; /* Opera */
         transition: 1s ease-out;
+        background-color: #FFF;
     }
     .navLinks.open{
         clip-path: circle(1000px at 90% -10%);
@@ -213,6 +214,7 @@ li.closeSocial {
     }
     .navLinks li a {
         font-size: 3.5vh;
+        color: #000 !important;
     }
     .navLinks li:nth-child(1) {
         transition: all 0.5s ease 0.2s;

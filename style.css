@@ -202,7 +202,7 @@ li.closeSocial {
         -ms-transition: 1s ease-out; /* Internet Explorer */
         -o-transition: 1s ease-out; /* Opera */
         transition: 1s ease-out;
-        background-color: #FFF;
+        background-color: #A9A9E9;
     }
     .navLinks.open{
         clip-path: circle(1000px at 90% -10%);

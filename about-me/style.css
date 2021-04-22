@@ -166,7 +166,7 @@ li.closeSocial {
         clip-path: circle(100px at 90% -30%);
         -webkit-clip-path: circle(100px at 90% -30%);
         transition: 1s ease-out;
-        background-color: #5F4B66;
+        background-color: #765D7E;
     }
     .navLinks.open{
         clip-path: circle(1000px at 90% -10%);

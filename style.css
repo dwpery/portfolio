@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #1d1e2c;
+  color: #ac9fbb;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  padding: 39vh 0;
+}
+
+h1 {
+  font-size: 6vh;
+  color: #FFF;
+}
+
+h2 {
+  font-size: 4.25vh;
+  color: #FFF;
+  text-align: center;
+  padding-bottom: 5vh;
+}
+
+.container {
+  padding: 0 20px 0 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.headerBar {
+  position: fixed;
+  height: 10vh;
+  width: 100%;
+  top: 0;
+  background-color: #1d1e2c;
+}
+
+.left {
+  position: absolute;
+  height: 10vh;
+  width: 50vh;
+}
+
+.headerTitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 5.5vh;
+  width: 100%;
+  text-align: center;
+  color: #FFF;
+  font-weight: bolder;
+}
+
+.center {
+  transform: translate(-50%);
+  position: fixed;
+  height: inherit;
+  width: 40%;
+  left: 50%;
+}
+
+.right {
+  background-color: red;
+  position: fixed;
+  height: inherit;
+  width: 10vh;
+  right: 0;
+}
+
+.navLink {
+  display: flex;
+  margin-top: 0;
+  margin-left: -5.6vh;
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navLink li a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 2.5vh;
+  transition: 0.5s;
+  padding: 1vh;
+  border-radius: 10px;
+}
+
+.navLink li a:hover {
+  color: #65689a !important;
+  background-color: #14151f;
+}
+
+section {
+  padding: 15vh;
+}
+
+.para {
+  margin-left: 2.5vh;
+  margin-right: 1vh;
+  text-indent: 7.5vh;
+  font-size: 2.75vh;
+}
+
+.projectsGrid{
+  margin: 20px auto;
+  width: 74.5vh;
+  height: 30vh;
+  display:grid;
+  grid-template-columns: 35vh 200px;
+  grid-row: auto auto;
+  grid-column-gap: 5vh;;
+  grid-row-gap: 5vh;
+}
+
+.projectBox{
+  background-color: #14151f;
+  height: 25vh;
+  width: 35vh;
+  border-radius:10px;
+}
+
+.boxHeading {
+  font-size: 3vh;
+  text-align: center;
+  padding: 1.5vh;
+  font-weight: bolder;
+}
+
+.boxHeading a {
+  text-decoration: none;
+  color: #FFF;
+  transition: 0.5s;
+}
+
+.boxHeading a:hover {
+  color: #65689a;
+  cursor: pointer;
+}
+
+
+.boxDesc {
+  font-size: 2vh;
+  text-indent: 2vh;
+  margin-left: 2vh;
+  margin-right: 1vh;
+}
+
+.more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

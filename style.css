@@ -158,3 +158,27 @@ section {
   align-items: center;
   justify-content: center;
 }
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  color: #ac9fbb;
+  text-decoration: none;
+  transition: 0.5s;
+  padding: 1vh;
+  border-radius: 10px;
+}
+
+a:hover {
+  color: #65689a !important;
+  background-color: #14151f;
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    display: block;
+  }
+}

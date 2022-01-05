@@ -66,11 +66,24 @@ h2 {
 }
 
 .right {
-  background-color: red;
   position: fixed;
   height: inherit;
-  width: 10vh;
+  width: 20vh;
   right: 0;
+}
+
+img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  height: 7.5vh;
+  width: 7.5vh;
+  border-radius: 50%;
+}
+
+img:hover {
+  cursor: pointer;
 }
 
 .navLink {

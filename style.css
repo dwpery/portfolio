@@ -36,7 +36,7 @@ h2 {
   height: 10vh;
   width: 100%;
   top: 0;
-  background-color: #1d1e2c;
+  background-color: #171823;
 }
 
 .left {
@@ -181,4 +181,9 @@ a:hover {
   .footer {
     display: block;
   }
+}
+
+.difColour {
+  background-color: #1A1B27;
+  padding: 2.5vh;
 }

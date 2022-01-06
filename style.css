@@ -212,8 +212,8 @@ a:hover {
     height: 5vh;
   }
 
-  .center {
-    display: none;
+  .navLink li a {
+    font-size: 1.25vh;
   }
 
   .headerTitle {

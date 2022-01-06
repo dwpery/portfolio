@@ -190,13 +190,47 @@ a:hover {
   background-color: #14151f;
 }
 
-@media screen and (max-width: 600px) {
-  .footer {
-    display: block;
-  }
-}
-
 .difColour {
   background-color: #1A1B27;
   padding: 2.5vh;
+}
+
+@media screen and (max-width: 950px) {
+  .footer {
+    display: block;
+  }
+
+  .para {
+    text-indent: 4.5vh;
+  }
+
+  section {
+    padding: 15vh 0;
+  }
+
+  .headerBar {
+    height: 5vh;
+  }
+
+  .center {
+    display: none;
+  }
+
+  .headerTitle {
+    font-size: 2.75vh;
+  }
+
+  .left {
+    height: 5vh;
+    width: 25vh;
+  }
+
+  img {
+    height: 3.75vh;
+    width: 3.75vh;
+  }
+
+  .right {
+    width: 10vh;
+  }
 }

@@ -225,6 +225,10 @@ a:hover {
     width: 25vh;
   }
 
+  .center {
+    display: none;
+  }
+
   img {
     height: 3.75vh;
     width: 3.75vh;

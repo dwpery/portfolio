@@ -195,6 +195,16 @@ a:hover {
   padding: 2.5vh;
 }
 
+.selectionBox {
+  position: fixed;
+  right: 6.25vh;
+  top: 11vh;
+  width: 15vh;
+  height: 20vh;
+  background-color: #171823;
+  border-radius: 15px;
+}
+
 @media screen and (max-width: 950px) {
   .footer {
     display: block;

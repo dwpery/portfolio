@@ -1,3 +1,5 @@
+window.onload = function () {alert("Work in progress")}
+
 function toggleSelectionBox() {
   var x = document.getElementById("selectionBox");
   if (x.style.display === "block") {

@@ -68,49 +68,30 @@ h2 {
 .right {
   position: fixed;
   height: inherit;
-  width: 20vh;
-  right: 0;
+  width: 30vh;
+  right: 5vh;
 }
 
-img {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%,-50%);
-  height: 7.5vh;
-  width: 7.5vh;
-  border-radius: 50%;
-  transition: 0.25s;
-}
-
-img:hover {
-  cursor: pointer;
-  border: 0.5vh solid #FFF;
-}
-
-.navLink {
+ul {
   display: flex;
-  margin-top: 0;
-  margin-left: -5.6vh;
+  padding-left: 0;
   list-style: none;
-  width: 100%;
-  height: 100%;
   justify-content: space-around;
   align-items: center;
 }
 
-.navLink li a {
-  color: #FFF;
-  text-decoration: none;
-  font-size: 2.5vh;
-  transition: 0.5s;
-  padding: 1vh;
-  border-radius: 10px;
+li {
+  margin-top: 0.5vh;
 }
 
-.navLink li a:hover {
-  color: #65689a !important;
-  background-color: #14151f;
+img {
+  position: relative;
+  height: 5vh;
+  width: 5vh;
+}
+
+img:hover {
+  cursor: pointer;
 }
 
 section {
@@ -127,7 +108,7 @@ section {
 .projectsGrid{
   margin: 20px auto;
   width: 74.5vh;
-  height: 30vh;
+  height: 55vh;
   display:grid;
   grid-template-columns: 35vh 200px;
   grid-row: auto auto;

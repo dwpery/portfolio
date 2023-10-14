@@ -1,10 +1,41 @@
+@import url(https://fonts.googleapis.com/earlyaccess/nicomoji.css);
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+
 body {
     margin: 0;
     padding: 0;
+    background-color: #F5F3EF;
+    overflow-x: hidden;
 }
 
 header {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
-    background-color: #F5F3EF;
+}
+
+#nameAndTitle {
+    position: relative;
+    top: 45vh;
+    left: 5vh;
+}
+
+#name {
+    margin: 1vh;
+    position: relative;
+    font-family: 'Nico Moji', Arial;
+    font-size: 12.5vh;
+    color: #5B5BFF;
+}
+
+#title {
+    margin: 1vh;
+    position: relative;
+    font-family: 'Notable', Arial;
+    font-size: 3.5vh;
+    color: #2323ff;
+}
+
+#transition1 {
+    position: relative;
+    width: 100%;
 }

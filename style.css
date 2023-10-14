@@ -13,6 +13,32 @@ header {
     width: 100%;
 }
 
+.iconBar {
+    width: 25vh;
+    position: absolute;
+    right: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+}
+
+.icon {
+    height: 7.5vh;
+    width: 7.5vh;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.icon:hover {
+    cursor: pointer;
+    fill: #5B5BFF;
+}
+
 #nameAndTitle {
     position: relative;
     top: 45vh;
@@ -38,4 +64,18 @@ header {
 #transition1 {
     position: relative;
     width: 100%;
+}
+
+#projects {
+    width: 100%;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    background-color: #000C61;
+}
+
+#subheading {
+    font-family: 'Nico Moji', Arial;
+    color: #F5F3EF;
+    text-align: center;
+    font-size: 6vh;
 }

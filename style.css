@@ -1,9 +1,11 @@
 @import url(https://fonts.googleapis.com/earlyaccess/nicomoji.css);
 @import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 
 body {
     margin: 0;
     padding: 0;
+    color: #F5F3EF;
     background-color: #F5F3EF;
     overflow-x: hidden;
 }
@@ -23,6 +25,8 @@ header {
 }
 
 a {
+    color: #F5F3EF;
+    text-decoration: none;
     margin: 0;
     padding: 0;
 }
@@ -75,7 +79,72 @@ a {
 
 #subheading {
     font-family: 'Nico Moji', Arial;
-    color: #F5F3EF;
     text-align: center;
     font-size: 6vh;
+}
+
+.projectsContainer {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+}
+
+.project {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 60%;
+}
+
+.projectIcon {
+    height: 22.5vh;
+}
+
+.textContainer {
+    width: 100%;
+    top: 0;
+    position: absolute;
+    text-indent: 25vh;
+}
+
+.projectHeader {
+    font-family: 'Nico Moji', Arial;
+    font-size: 5vh;
+    margin: 0;
+    padding: 0;
+}
+
+.projectButtons {
+    position: relative;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.greenButton, .blueButton {
+    display: inline;
+    font-family: 'Inter', sans-serif;
+    background-color: #2D24A9;
+    padding: 1vh;
+    font-weight: bolder;
+    border-radius: 50px;
+    font-size: 2.5vh;
+}
+
+.greenButton {
+    background-color: #0A9230;
+}
+
+.para {
+    font-family: Arial;
+    margin-left: 25vh;
+    text-indent: 5vh;
+    font-weight: bold;
+}
+
+.centeredButton {
+    position: absolute;
+    padding: 1vh;
+    left: 50%;
+    transform: translate(-50%);
 }

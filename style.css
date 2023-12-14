@@ -1,152 +1,58 @@
 @import url(https://fonts.googleapis.com/earlyaccess/nicomoji.css);
 @import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 
 body {
     margin: 0;
     padding: 0;
-    color: #F5F3EF;
-    background-color: #F5F3EF;
-    overflow-x: hidden;
 }
 
-header {
-    height: 80vh;
+.shadowedHeader {
+    position: fixed;
+    top: 0;
     width: 100%;
+    height: 15vh;
+    background: linear-gradient(#424242, #FFF);
 }
 
-.iconBar {
-    width: 25vh;
-    position: absolute;
-    right: 2vh;
+.mainText {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -80%);
+    text-align: center;
+    padding: 0;
+}
+
+.mainHeader {
+    font-family: 'Nico Moji', Arial;
+    color: #5B5BFF;
+    font-size: 15vh;
+    font-weight: normal;
+}
+
+.subHeader {
+    font-family: 'Notable', Arial;
+    color: #5B5BFF;
+    font-size: 4.5vh;
+}
+
+.iconContainer {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
     display: flex;
     align-items: center;
     justify-content: space-around;
+    height: 15vh;
+    width: 50vh;
 }
 
-a {
-    color: #F5F3EF;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
+.headerSVG {
+    width: 10vh;
 }
 
-.icon {
-    height: 7.5vh;
-    width: 7.5vh;
-    border-radius: 50%;
-    transition: 0.5s;
-}
-
-.icon:hover {
-    cursor: pointer;
-    fill: #5B5BFF;
-}
-
-#nameAndTitle {
-    position: relative;
-    top: 45vh;
-    left: 5vh;
-}
-
-#name {
-    margin: 1vh;
-    position: relative;
-    font-family: 'Nico Moji', Arial;
-    font-size: 12.5vh;
-    color: #5B5BFF;
-}
-
-#title {
-    margin: 1vh;
-    position: relative;
-    font-family: 'Notable', Arial;
-    font-size: 3.5vh;
-    color: #2323ff;
-}
-
-#transition1 {
-    position: relative;
+.waves {
+    position: fixed;
     width: 100%;
-}
-
-#projects {
-    width: 100%;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
-    background-color: #000C61;
-}
-
-#subheading {
-    font-family: 'Nico Moji', Arial;
-    text-align: center;
-    font-size: 6vh;
-    padding: 5vh;
-}
-
-.projectsContainer {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-    width: 80%;
-}
-
-.project {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-    width: 60%;
-}
-
-.projectIcon {
-    height: 22.5vh;
-}
-
-.textContainer {
-    width: 100%;
-    top: 0;
-    position: absolute;
-    text-indent: 25vh;
-}
-
-.projectHeader {
-    font-family: 'Nico Moji', Arial;
-    font-size: 5vh;
-    margin: 0;
-    padding: 0;
-}
-
-.projectButtons {
-    position: relative;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-}
-
-.greenButton, .blueButton {
-    display: inline;
-    font-family: 'Inter', sans-serif;
-    background-color: #2D24A9;
-    padding: 1vh;
-    font-weight: bolder;
-    border-radius: 50px;
-    font-size: 2.5vh;
-}
-
-.greenButton {
-    background-color: #0A9230;
-}
-
-.para {
-    font-family: Arial;
-    margin-left: 25vh;
-    text-indent: 5vh;
-    font-weight: bold;
-    font-size: 2.5vh;
-}
-
-.centeredButton {
-    position: absolute;
-    padding: 4.5vh;
-    left: 50%;
-    transform: translate(-50%);
+    bottom: 0;
 }

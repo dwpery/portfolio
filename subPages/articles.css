@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    width: 20vh;
+    border-radius: 0 0 6vh 0;
+}

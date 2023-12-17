@@ -81,3 +81,41 @@ body {
     width: 100%;
     bottom: 0;
 }
+
+.desktopWaves {
+    display: block;
+}
+
+.mobileWaves {
+    display: none;
+}
+
+@media screen and (max-width: 850px) {
+    .desktopWaves {
+        display: none;
+    }
+    
+    .mobileWaves {
+        display: block;
+    }
+
+    .mainHeader {
+        font-size: 8vh;
+    }
+
+    .subHeader {
+        font-size: 3vh;
+    }
+
+    .headerButton {
+        display: none;
+    }
+
+    .headerSVG {
+        width: 9vh;
+    }
+
+    .iconContainer {
+        width: 40vh;
+    }
+}

@@ -28,6 +28,18 @@ body {
     color: #000C61;
 }
 
+.headerSVGbackground { 
+    fill: #5B5BFF;
+    transition: 0.5s;
+}
+.headerSVG:hover .headerSVGbackground { fill: #000C61; }
+
+.headerSVGicon { 
+    fill: #000C61;
+    transition: 0.5s;
+}
+.headerSVG:hover .headerSVGicon { fill: #5B5BFF; }
+
 .left {
     left: 5vh;
 }

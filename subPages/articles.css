@@ -112,4 +112,8 @@ body {
     .decorativeBar {
         width: 90%;
     }
+    
+    .wrapper {
+        width: 90%;
+    }
 }

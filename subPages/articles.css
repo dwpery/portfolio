@@ -72,6 +72,44 @@ body {
     left: 50%;
     transform: translate(-50%);
     height: 0.5vh;
-    width: 70vh;
+    width: 60%;
     border-radius: 1vh;
+}
+
+@media screen and (max-width: 850px) {
+    .desktop {
+        display: none;
+    }
+
+    .home {
+        width: 15vh;
+    }
+
+    .rightQuote {
+        margin-left: 0;
+        margin-right: 0;
+    }
+      
+    .leftQuote {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .quote {
+        max-width: 90%;
+    }
+
+    .quotesSection {
+        width: 100%;
+        justify-content: center;
+        gap: 5vh;
+    }
+
+    .quoteText {
+        font-size: 3vh;
+    }
+
+    .decorativeBar {
+        width: 90%;
+    }
 }

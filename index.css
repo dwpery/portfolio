@@ -23,6 +23,27 @@ body {
     transition: 0.5s;
 }
 
+.contactPosition {
+    position: fixed;
+    bottom: 3vh;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 11;
+}
+.contactText {
+    font-family: 'Notable', Arial;
+    color: #FFF;
+    text-align: center;
+    line-height: 0.9;
+    font-size: 5vh;
+    transition: 0.5s;
+}
+
+.contactPosition:hover .contactText {
+    color: #5B5BFF;
+    cursor: pointer;
+}
+
 .headerButton:hover {
     cursor: pointer;
     color: #000C61;
@@ -160,7 +181,7 @@ a {
     }
 
     .headerSVG {
-        width: 9vh;
+        width: 8vh;
     }
 
     .iconContainer {

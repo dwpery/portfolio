@@ -4,8 +4,37 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Contact Me | Pieter Edwards</title>
+        <link rel="stylesheet" href="contactMe.css">
+        <link rel="shortcut icon" type="image/png" href="../media/favicon.png">
     </head>
     <body>
-    
+        <section class="header">
+            <a href="https://dwpery.github.io/portfolio/"><img class="home" src="../media/portfolioButton.svg" alt="Home"></a>
+            <div class="mainHeading">For Enquiries</div>
+            <div class="subHeading">Please contact me below</div>
+        </section>
+        <section class="contactContainer">
+            <div class="leftContent">
+                <form class="formFormatting" method="post" action="https://forms.un-static.com/forms/bc95143a00e5dfee2332e486ca5636978eddf1d9">
+                    <input id="name" name="name" class="formElement" type="text" placeholder="Name">
+                    <input id="email" name="email" class="formElement" type="email" placeholder="Email">
+                    <textarea id="message" name="message" class="formDetails" placeholder="Details"></textarea>
+                    <button class="submitForm" name="submit" type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="centerBar"></div>
+            <div class="rightContent">
+                <a href="mailto:pieterkurtedwards@gmail.com" target="_blank"><div class="contactButton">Email</div></a>
+                <a href="https://discordapp.com/users/605739403960254501" target="_blank"><div class="contactButton">Discord</div></a>
+                <a href="https://www.instagram.com/dwpery/" target="_blank"><div class="contactButton">Instagram</div></a>
+                <a href="https://www.linkedin.com/in/pieter-edwards-66b0a6202/" target="_blank"><div class="contactButton">LinkedIn</div></a>
+                <div class="legalGarb">
+                    <div>© Pieter Edwards, 2024</div>
+                    <div>View my Portfolios source code <a href="https://github.com/dwpery/portfolio" target="_blank" class="garbLink">here</a></div>
+                    <div>Want to support me? <a href="https://www.buymeacoffee.com/pieteredwards" target="_blank" class="garbLink">Buy me a coffee</a></div>
+                    <div>Contact Form powered by <a href="https://un-static.com/" target="_blank" class="garbLink">Un-Static</a></div>
+                </div>
+            </div>
+        </section>
     </body>
 </html>

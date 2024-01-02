@@ -1,0 +1,156 @@
+@import url(https://fonts.googleapis.com/earlyaccess/nicomoji.css);
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    background-color: #000C61;
+    font-family: 'Arimo', sans-serif;
+}
+
+.home {
+    position: fixed;
+    left: 0;
+    width: 20vh;
+    border-radius: 0 0 6vh 6vh;
+}
+
+.header {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    width: 70%;
+}
+
+.mainHeading {
+    font-family: 'Nico Moji', Arial;
+    margin-top: 2vh;
+    font-size: 7vh;
+}
+
+.subHeading {
+    font-family: 'Notable', Arial;
+    font-size: 4vh;
+}
+
+.contactContainer {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 147vh;
+    height: 70%;
+    bottom: 7.5vh;
+}
+
+.leftContent {
+    position: absolute;
+    left: 0;
+    width: 73vh;
+    height: 100%;
+}
+
+.formFormatting {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+::placeholder {
+    color: #B3B3b3;
+}
+
+.formElement, .formDetails {
+    width: 55vh;
+    border: none;
+    font-size: 3vh;
+    padding: 1vh;
+    border-radius: 5vh;
+    color: #FFF;
+    text-indent: 3vh;
+    background-color: #675FD6;
+    font-family: 'Arimo', sans-serif;
+}
+
+.formDetails {
+    height: 35vh;
+    resize: none;
+}
+
+.submitForm {
+    background-color: #FFF;
+    font-size: 2.5vh;
+    padding: 1vh;
+    width: 25vh;
+    border: none;
+    border-radius: 5vh;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+
+.submitForm:hover {
+    cursor: pointer;
+    background-color: #5B5BFF;
+    color: #FFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contactButton {
+    width: 55vh;
+    background-color: #675FD6;
+    font-family: 'Arimo', sans-serif;
+    font-size: 3vh;
+    padding: 1vh;
+    border-radius: 5vh;
+    color: #FFF;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.contactButton:hover {
+    cursor: pointer;
+    color: #000;
+    background-color: #FFF;
+}
+
+.centerBar {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 2vh;
+    height: 100%;
+    border-radius: 5vh;
+    background-color: #2D24A9;
+}
+
+.rightContent {
+    position: absolute;
+    right: 0;
+    width: 73vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7.5vh;
+}
+
+.legalGarb {
+    position: absolute;
+    text-align: right;
+    right: 10vh;
+    bottom: 2vh;
+}
+
+.garbLink {
+    color: #675FD6;
+}

@@ -1,6 +1,12 @@
+@import url(https://fonts.googleapis.com/earlyaccess/nicomoji.css);
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
+
 body {
     margin: 0;
     padding: 0;
+    color: #FFF;
+    background-color: #2D24A9;
 }
 
 .home {
@@ -8,4 +14,28 @@ body {
     right: 0;
     width: 20vh;
     border-radius: 0 0 0 6vh;
+}
+
+.header {
+    position: absolute;
+    margin-top: 3vh;
+    margin-left: 7.5vh;
+}
+
+.mainHeading {
+    font-family: 'Nico Moji', Arial;
+    font-size: 15vh;
+}
+
+.subHeading {
+    font-family: 'Notable', Arial;
+    font-size: 4vh;
+}
+
+.decorativeBar {
+    background-color: #000C61;
+    height: 1vh;
+    width: 135vh;
+    margin-top: 1vh;
+    border-radius: 5vh;
 }

@@ -7,6 +7,7 @@ body {
     padding: 0;
     color: #FFF;
     background-color: #2D24A9;
+    font-family: 'Arimo', sans-serif;
 }
 
 .home {
@@ -14,10 +15,11 @@ body {
     right: 0;
     width: 20vh;
     border-radius: 0 0 0 6vh;
+    z-index: 10;
 }
 
 .header {
-    position: absolute;
+    position: relative;
     margin-top: 3vh;
     margin-left: 7.5vh;
 }
@@ -38,4 +40,83 @@ body {
     width: 135vh;
     margin-top: 1vh;
     border-radius: 5vh;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    left: 50%;
+    margin-top: 3vh;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project {
+    width: 100vh;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+.left {
+    float: left;
+    width: 25%;
+}
+
+img {
+    width: 100%;
+}
+
+.right {
+    float: left;
+    left: 25%;
+    width: 75%;
+    text-indent: 2vh;
+}
+
+.projectName {
+    font-size: 5vh;
+    margin-top: 1.5vh;
+    font-weight: bold;
+}
+
+.buttonsContainer {
+    margin-top: 3vh;
+}
+
+.projectButton {
+    padding: 1vh;
+    font-size: 2vh;
+    border-radius: 5vh;
+    font-weight: bold;
+    transition: 0.5s;
+    background-color: #000871;
+}
+
+a .projectButton:hover {
+    cursor: pointer;
+    background-color: #5B5BFF;
+    color: #FFF;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.versionButton {
+    background-color: #24b600;
+}
+
+.projectPara {
+    margin-top: 3vh;
+    margin-left: 2vh;
+    text-indent: 5vh;
+    font-size: 2.5vh;
+}
+
+.developmentButton {
+    background-color: #EA0000;
 }

@@ -12,6 +12,7 @@ body {
 
 .home {
     position: fixed;
+    top: 0;
     right: 0;
     width: 20vh;
     border-radius: 0 0 0 6vh;
@@ -119,4 +120,60 @@ a {
 
 .developmentButton {
     background-color: #EA0000;
+}
+
+@media screen and (max-width: 850px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 12vh;
+        margin-left: 0;
+    }
+
+    .home {
+        width: 15vh;
+    }
+
+    .mainHeading {
+        font-size: 7vh;
+    }
+
+    .subHeading {
+        font-size: 2vh;
+        max-width: 90%;
+    }
+
+    .decorativeBar {
+        width: 75%;
+    }
+
+    .wrapper, .project {
+        width: 100%;
+    }
+
+    .project {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left {
+        float: unset;
+        width: 50%;
+    }
+
+    .right {
+        float: unset;
+        width: 80%;
+    }
+
+    .projectPara {
+        margin-left: 0;
+        text-indent: 0;
+        text-align: center;
+    }
 }

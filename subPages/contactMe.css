@@ -142,7 +142,6 @@ a {
 
 .mobileGridConatiner {
     height: inherit;
-    width: inherit;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -160,7 +159,7 @@ a {
     color: #675FD6;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1100px) {
     .mainHeading {
         font-size: 5vh;
     }
@@ -210,8 +209,6 @@ a {
 
     .contactButton {
         width: 15vh;
-        margin-top: 3vh;
-        box-sizing: border-box;
     }
 
     .legalGarb {

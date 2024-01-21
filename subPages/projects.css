@@ -81,10 +81,12 @@ img {
     font-size: 5vh;
     margin-top: 1.5vh;
     font-weight: bold;
+    width: fit-content;
 }
 
 .buttonsContainer {
     margin-top: 3vh;
+    width: fit-content;
 }
 
 .projectButton {
@@ -93,6 +95,7 @@ img {
     border-radius: 5vh;
     font-weight: bold;
     transition: 0.5s;
+    width: fit-content;
     background-color: #000871;
 }
 
@@ -169,6 +172,11 @@ a {
     .right {
         float: unset;
         width: 80%;
+        text-indent: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .projectPara {

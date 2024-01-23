@@ -14,8 +14,9 @@ body {
     height: 10vh;
     background-color: #5B5BFF;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    gap: 3vh;
+    align-items: center;
+    z-index: 10;
 }
 
 .headerLogo {
@@ -25,6 +26,51 @@ body {
     margin-left: 3vh;
     transition: 0.5s;
     width: fit-content;
+    overflow: hidden;
+}
+
+.headerHeadline {
+    color: #FFF;
+    font-size: 5vh;
+    font-weight: bold;
+}
+
+.bar {
+    width: 1vh;
+    height: 7.5vh;
+    border-radius: 5vh;
+    background-color: #FFF;
+}
+
+#div1, #div2 {
+    transition: opacity 0.5s ease-in-out; /* Adjust the duration and timing function as needed */
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.backToTop {
+    position: fixed;
+    bottom: 2.5vh;
+    right: -10vh;
+    background-color: #5B5BFF;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 3vh;
+    font-size: 3vh;
+    font-weight: bold;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.backToTop:hover {
+    background-color: #000C61;
+    cursor: pointer;
 }
 
 .headerLogo:hover {
@@ -54,4 +100,23 @@ body {
 .subline {
     font-size: 2.5vh;
     max-width: 60%;
+}
+
+.wrapper {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 45%;
+}
+
+p {
+    font-size: 2vh;
+    text-indent: 5vh;
+    line-height: 3vh;
+}
+
+p::first-letter {
+    color: #5B5BFF;
+    font-size: 6vh;
+    font-weight: bolder;
 }

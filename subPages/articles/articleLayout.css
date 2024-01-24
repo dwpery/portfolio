@@ -104,7 +104,7 @@ body {
 }
 
 .wrapper {
-    position: absolute;
+    position: relative;
     left: 50%;
     transform: translate(-50%);
     width: 45%;
@@ -120,4 +120,30 @@ p::first-letter {
     color: #5B5BFF;
     font-size: 6vh;
     font-weight: bolder;
+}
+
+.tag {
+    color: red;
+}
+
+ul {
+    margin-left: 4vh;
+}
+
+li::marker, a {
+    color: #5B5BFF;
+}
+
+footer {
+    position: relative;
+    background-color: #b3b3b3;
+    width: 100%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    text-align: center;
+}
+
+hr {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Does jQuery have a place on the modern web?</title>
+        <link rel="stylesheet" href="articleLayout.css">
+        <script src="article.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <div class="fixedHeader">
+                <div class="headerLogo" onclick="location.href='https://dwpery.github.io/portfolio/'">PE</div>
+                <div id="div1" class="bar hidden"></div>
+                <div id="div2" class="headerHeadline hidden">SEO basics and an intro to &lt;meta&gt; tags</div>
+            </div>
+            <div class="pageHeader" id="trigger">
+                <div class="headline">SEO basics and an intro to &lt;meta&gt; tags</div>
+                <div class="subline">24/01/24</div>
+            </div>
+        </header>
+        <section class="wrapper">
+            <p>SEO is an abbreviation commonly used in web development, it stands for Search Engine Optimization and is the process of providing enough information so web browsers can show your website to the right people. Good SEO is crucial for any and all websites as without it you will not reach your audience and your efforts will be wasted. To provide the browser with this information you must enlist the help of the &lt;meta&gt; tag.</p>
+            <p>All &lt;meta&gt; tags are located within the &lt;head&gt; section of your document. This simple tag has a whole host of properties that you can use to your advantage in the SEO game. When a Search Engine (such as Google) indexes your website it will look for all the &lt;meta&gt; tags and use them in order to decide when to display your site in search results and, yes, whilst a lot of what determines your sites position in the results is out of your control (being based on factors such as site popularity and your clickthrough rate) using good SEO techniques is a good foot in the door and a firm foundation to build success from.<br><br>So, first things first, the &lt;meta&gt; tags you will likely already be familiar with are:</p>
+            <code>&lt;meta charset="UTF-8"&gt;<br>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code>
+            <p>These two tags are often already within your document when you create a new HTML project as Visual Studio Code includes them for you but what do they mean? The “ charset=’UTF-8’ ” tells the browser that you are using Unicode Transformation Format 8 which is used to display nearly all characters within the Unicode consortium. The second &lt;meta&gt; tag controls the viewport as it both sets the width of the viewport to the user's device but also ensures the page does not load zoomed in so all elements maintain their original size. Booth these tags are useful for accessibility reasons but not so much SEO. The main &lt;meta&gt; tag you want to use has the attribute “keywords”</p>
+            <code>&lt;meta name="keywords" content="clock, open, source"&gt;</code>
+            <p>This tag will give the Browser more keywords to look for and the more of these words that appear in a user’s search query, the more likely it is for your site to be displayed in the list of results. To add this to your project:</p>
+            <ul>
+                <li>Create a new &lt;meta&gt; tag</li>
+                <li>Set the name attribute to “key words”</li>
+                <li>In the content field write each individual word separated by commas</li>
+            </ul>
+            <code>%ltmeta name="description" content="An example description!"&gt;</code>
+            <p>This tag provides the browser with the little paragraph that it will display below the link to your site. Creating a short but informative description is key to entice users onto your page as this will be their only way of knowing what your site is about if they’re a first time user.</p>
+            <code>&lt;title&gtDoes jQuery have a place on the modern web?&lt;/title&gt</code>
+            <p>Surprisingly the &lt;title&gt; tag is also important as this gives the name of your page and is used as the text that shows in the Search results. These words will also be used for matching with search queries so make sure they’re relevant and helpful to the user as this is public facing unlike the keywords tag!</p>
+            <p>So that was a beginners guide to Search Engine Optimization and the use of <meta> tags, there are more tags than I have spoken about in this article but they’re more advanced and go into specifying and controlling how Search Engines index your website. For now these tags will allow you to begin to optimise your project and seemore users. I do still have two final things to mention however. To be able to see your pages Search Analytics make sure to go to Google Search Console and add your site to your account and once you’ve proved ownership you can view data in interactive graphs that will allow you to see your best performing searches and much more! The final useful software is the Chrome browsers inbuilt Lighthouse test. Simply right click on your website, press “Inspect” and then navigate the tabs to the “Lighthouse” section. This will test your site in many different areas but we’re mainly interested in the SEO category as it gives you a score and tells you how to improve it.I hope this article was helpful and will enable you to do better in your web dev career!</p>
+        </section>
+        <div id="returnToTop" onclick="returnToTop()" class="backToTop">Top</div>
+    </body>
+</html>

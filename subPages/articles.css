@@ -68,12 +68,49 @@ body {
 
 .decorativeBar {
     background-color: #000C61;
-    position: absolute;
+    position: relative;
     left: 50%;
     transform: translate(-50%);
     height: 0.5vh;
     width: 60%;
     border-radius: 1vh;
+    margin-bottom: 5vh;
+}
+
+.article {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    height: 0.5vh;
+    width: 60%;
+    background-color: #cecece;
+    height: fit-content;
+    padding: 2vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    border-radius: 3vh;
+}
+
+.article:hover {
+    cursor: pointer;
+}
+
+.headline {
+    text-align: center;
+    font-size: 4vh;
+    font-weight: bold;
+}
+
+.subline {
+    text-align: center;
+}
+
+.articleDesc {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    max-width: 90%;
+    text-align: center;
 }
 
 @media screen and (max-width: 1250px) {

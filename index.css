@@ -135,6 +135,7 @@ body {
     gap: 15vh;
     z-index: 11;
     transition: 1s;
+    overflow: hidden;
 }
 
 .mobileHeaderButton {

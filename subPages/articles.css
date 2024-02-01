@@ -87,8 +87,7 @@ body {
     background-color: #F0F0F0;
     height: fit-content;
     padding: 2vh;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+    margin-bottom: 5vh;
     border-radius: 3vh;
     font-family: "Roboto Slab", serif;
     transition: 0.5s;
@@ -159,5 +158,9 @@ body {
     
     .wrapper {
         width: 90%;
+    }
+
+    .headline {
+        font-size: 3vh;
     }
 }

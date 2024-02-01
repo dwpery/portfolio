@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
 @import url(https://fonts.googleapis.com/earlyaccess/nicomoji.css);
 
@@ -83,41 +84,47 @@ body {
     transform: translate(-50%);
     height: 0.5vh;
     width: 60%;
-    background-color: #cecece;
+    background-color: #F0F0F0;
     height: fit-content;
     padding: 2vh;
     margin-top: 2vh;
     margin-bottom: 2vh;
     border-radius: 3vh;
+    font-family: "Roboto Slab", serif;
+    transition: 0.5s;
 }
 
 .article:hover {
     cursor: pointer;
+    background-color: #cecece;
 }
 
 .headline {
     text-align: center;
-    font-size: 4vh;
+    font-size: 5vh;
+    max-width: 90%;
+    margin: auto;
     font-weight: bold;
 }
 
 .subline {
-    text-align: center;
+    color: #1B1982;
 }
 
-.articleDesc {
+.articleDesc, .subline {
     position: relative;
     left: 50%;
     transform: translate(-50%);
+    text-align: left;
     max-width: 90%;
-    text-align: center;
+    font-weight: bold;
+    font-size: 2vh;
 }
 
 @media screen and (max-width: 1250px) {
     .desktop {
         display: none;
     }
-
     .home {
         width: 15vh;
     }

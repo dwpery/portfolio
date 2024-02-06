@@ -5,11 +5,11 @@ window.addEventListener("scroll", function() {
     var triggerElementRect = triggerElement.getBoundingClientRect();
 
     // Check if the bottom of the trigger element is above the viewport
-    if (triggerElementRect.bottom < 0) {
+    if (triggerElementRect.bottom-100 < 0) {
         scrolledDown();
     }
 
-    if (triggerElementRect.bottom > 0) {
+    if (triggerElementRect.bottom-100 > 0) {
         scrolledUp();
     }
 })
@@ -19,6 +19,8 @@ function scrolledDown() {
     document.getElementById('div1').classList.remove('hidden');
     document.getElementById('div2').classList.remove('hidden');
 
+    document.getElementById('fixedHeader').classList.add('fixedHeaderColour');
+
     document.getElementById('returnToTop').style.right = '2.5vh';
 }
 
@@ -26,6 +28,8 @@ function scrolledUp() {
     // Make the divs invisible by removing the 'hidden' class
     document.getElementById('div1').classList.add('hidden');
     document.getElementById('div2').classList.add('hidden');
+
+    document.getElementById('fixedHeader').classList.remove('fixedHeaderColour');
 
     document.getElementById('returnToTop').style.right = '-10vh';
 }

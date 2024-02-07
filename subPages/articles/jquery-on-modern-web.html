@@ -9,8 +9,8 @@
     </head>
     <body>
         <header>
-            <div class="fixedHeader">
-                <div class="headerLogo" onclick="location.href='https://dwpery.github.io/portfolio/'">PE</div>
+            <div class="fixedHeader" id="fixedHeader">
+                <div class="headerLogo" onclick="location.href='https://dwpery.github.io/portfolio/subPages/articles.html'">PE</div>
                 <div id="div1" class="bar hidden"></div>
                 <div id="div2" class="headerHeadline hidden">Does jQuery have a place on the modern web?</div>
             </div>
@@ -20,12 +20,14 @@
             </div>
         </header>
         <section class="wrapper">
-            <p>jQuery is a lightweight JavaScript library which was initially released on August 26th 2006 with the aim of simplifying code whilst doing more with fewer lines and quickly skyrocketed in popularity becoming the most used JavaScript library in the world. However, it’s continued use seems unlikely as it becomes more of a relic of the wild west era of the web; a time where there was no standardisation between browsers and programming languages were less advanced.</p>
-            <p>One of jQuery’s main selling points was the unity it brought across browsers. The developers and maintainers of browsers in the late 2000s had no communication between each other leading to inconsistent API implementation. Web Developers of the time could only work around this by using long performance draining code to ensure their websites worked across most browsers on most platforms. jQuery provided a consistent and relatively simple way to achieve this which enabled development time to be used on more important issues rather than fueling time into simply getting the website to work. The widespread success from jQuerys API implementation eventually reached the Browser Development teams themselves and so work began on optimising API implementations. </p>
-            <p>The era of no communication between browsers was over and rushed in a new revolutionary age for web development. Google released their Chromium Web Browser (the free and Open Source base Chrome is built off of) in 2008 which led to more and more browsers having the same underlying engine so their API implementation was the same. Most other mainstream alternatives to Chrome are built off of Chromium such as Opera, Brave and even now Microsoft Edge. Apple and Mozzila even collaborated with Google via the Web Hypertext Application Technology Working Group to ensure their independent browsers did not fall behind. Another key breakthrough is the speed in which browser updates were implemented, they were now being updated independently of the Operating System so they could keep on top of new features in programming languages quicker and evolve faster. All this work made jQuerys unitary features essentially pointless as the same effect could be reached with native JavaScript now. All this browser work however was being somewhat undone as Microsoft’s Internet Explorer continued to cause endless problems. It seemed as though an infinite amount of bugs were Internet Explorer specific. Unfortunately, Internet Explorer dominated the browser market share of the 2000s as it cem pre-installed on Windows computers so for many developers the only way to deal with these problems was to implement jQuery. Even until the very end Internet Explorer was a mess that gave developers no end of nightmares if they even attempted to work with it. Thankfully Microsoft rather hastily dropped support for the final versions after it became apparent that it was holding back the Web Development industry.</p>
-            <p>Even the other main uses for jQuery began to be beaten by native solutions. CSS animations were updated greatly from what they had been and it now became simpler and more performance efficient to write them using CSS instead. Arguably however, one of the largest reasons was the fact that developers moved onto using powerful frameworks instead of simple libraries. React, Vue and Angular are some of the most popular frameworks and they handle not only the updating of content on a page but also the initial rendering of the content which grants much more control and freedom to the developer .</p>
-            <p>jQuery was a revolutionary tool that moulded the modern web landscape we have today and its legacy will certainly live on with many of its APIs and features now being natively present within browsers. It does still receive updates to this day but with big clients such as Github and the British Government dropping it from their websites.</p>
+            <div class="decorativeBar"></div>
         </section>
+        <footer>
+            <div class="wrapper">
+                <div>© Pieter Edwards, 2024</div>
+                <div>Want to support me? <a href="https://www.buymeacoffee.com/pieteredwards" target="_blank" class="garbLink">Buy me a coffee</a></div>
+            </div>
+        </footer>
         <div id="returnToTop" onclick="returnToTop()" class="backToTop">Top</div>
     </body>
 </html>

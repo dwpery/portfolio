@@ -102,6 +102,18 @@ body {
     font-family: "Roboto Slab", serif;
 }
 
+.decorativeBar {
+    background-color: #000C61;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    height: 0.5vh;
+    width: 100%;
+    border-radius: 1vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
 .headline {
     font-size: 8vh;
     max-width: 60%;

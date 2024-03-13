@@ -75,6 +75,7 @@ body {
     text-indent: 3vh;
     background-color: #675FD6;
     font-family: 'Arimo', sans-serif;
+    outline: none;
 }
 
 .formDetails {

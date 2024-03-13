@@ -12,6 +12,7 @@ body {
     position: fixed;
     width: 20vh;
     border-radius: 0 0 6vh 0;
+    z-index: 10;
 }
 
 .quotesSection {

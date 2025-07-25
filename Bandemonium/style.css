@@ -1,29 +1,35 @@
 body {
     font-family: 'Comic Sans MS', cursive, sans-serif;
-    background-image: url('media/backgroundEdit2.png');
+    background-image: url('media/background.png');
     background-size: cover;
     background-size: 100% auto;
     background-attachment: scroll;
     background-repeat: no-repeat;
-    max-height: 1868px;
+    min-height: 180rem;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
+body {
+    height: auto;
+}
 
 .headerPadding {
-    height: 65vh;
+    height: 37.7rem;
 }
 
 .footerPadding {
-    position: absolute;
+    position: relative;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 22vh;
+    margin-top: 18rem;
     margin-left: 0;
-    height: 25vh;
+    height: 15.7rem;
+    gap: 2rem;
 }
 
 p {
@@ -32,7 +38,7 @@ p {
     width: 40%;
     left: 50%;
     transform: translate(-50%, 0);
-    margin-bottom: 10vh;
+    margin-bottom: 5.8rem;
 }
 
 .contact {
@@ -40,5 +46,49 @@ p {
 }
 
 .tagline {
-    font-size: 3vh;
+    font-size: 1.75rem;
+}
+
+.mobileBottom {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-image: url('media/backgroundMobile.png');
+        min-height: 0;
+    }
+
+    .headerPadding {
+        height: 14rem;
+    }
+
+    .footerPadding {
+        height: 5rem;
+        margin-top: 2.5rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+        width: 70%;
+        margin-bottom: 2.9rem;
+    }
+
+    .contact {
+        font-size: 1.2rem;
+    }
+
+    .tagline {
+        font-size: 1rem;
+    }
+    .mobileBottom {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 5rem;
+        margin-top: 2rem;
+        background-image: url('media/mobileBottom.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }

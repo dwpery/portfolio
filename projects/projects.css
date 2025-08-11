@@ -125,6 +125,10 @@ a {
     background-color: #EA0000;
 }
 
+.round {
+    border-radius: 50%;
+}
+
 @media screen and (max-width: 1100px) {
     .header {
         display: flex;

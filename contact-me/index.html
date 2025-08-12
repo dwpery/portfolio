@@ -16,12 +16,24 @@
         </section>
         <section class="contactContainer">
             <div class="leftContent">
-                <form class="formFormatting" method="post" action="https://forms.un-static.com/forms/bc95143a00e5dfee2332e486ca5636978eddf1d9">
+                <form id="contactForm" class="formFormatting" method="post" action="https://forms.un-static.com/forms/bc95143a00e5dfee2332e486ca5636978eddf1d9">
                     <input required id="name" name="name" class="formElement" type="text" placeholder="Name">
                     <input required id="email" name="email" class="formElement" type="email" placeholder="Email">
                     <textarea required id="message" name="message" class="formDetails" placeholder="Details"></textarea>
+                    <div style="display:none;">
+                        <label for="website">Please leave this field blank</label>
+                        <input id="honeypot" name="website" type="text" tabindex="-1" autocomplete="off">
+                    </div>
                     <button class="submitForm" name="submit" type="submit">Submit</button>
                 </form>
+                <script>
+                    document.getElementById('contactForm').addEventListener('submit', function(e) {
+                        const honeypot = document.getElementById('honeypot').value;
+                            if (honeypot !== '') {
+                                e.preventDefault();
+                            } 
+                    });
+                </script>
             </div>
             <div class="centerBar"></div>
             <div class="rightContent">

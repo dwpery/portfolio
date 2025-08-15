@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url(https://fonts.googleapis.com/earlyaccess/nicomoji.css);
 
 body {
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    font-family: 'Arimo', sans-serif;
-    font-size: 2vh;
 }
 
 .fixedHeader {
@@ -53,7 +51,7 @@ body {
 }
 
 #div1, #div2 {
-    transition: opacity 0.5s ease-in-out; /* Adjust the duration and timing function as needed */
+    transition: opacity 0.5s ease-in-out;
 }
 
 .hidden {
@@ -78,12 +76,7 @@ body {
     transition: 0.5s;
 }
 
-.backToTop:hover {
-    background-color: #000C61;
-    cursor: pointer;
-}
-
-.headerLogo:hover {
+.hover:hover {
     cursor: pointer;
     color: #000C61;
 }
@@ -91,7 +84,7 @@ body {
 .pageHeader {
     position: relative;
     height: 65vh;
-    background-color: #A4A4FF;
+    background-color: #5B5BFF;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,14 +97,10 @@ body {
 
 .decorativeBar {
     background-color: #000C61;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
     height: 0.5vh;
     width: 100%;
     border-radius: 1vh;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+    margin: 5vh 0;
 }
 
 .headline {
@@ -125,16 +114,13 @@ body {
 }
 
 .wrapper {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
     width: 45%;
+    margin: 0 auto;
 }
 
 p {
-    font-size: 2vh;
-    text-indent: 5vh;
-    line-height: 3vh;
+    font-size: 1.2rem;
+    line-height: 1.5;
 }
 
 p::first-letter {
@@ -157,16 +143,21 @@ li::marker, a {
 
 footer {
     position: relative;
-    background-color: #d5d5d5;
+    background-color: #2D24A9;
     width: 100%;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    font-weight: bold;
+    padding: 5vh 0;
     text-align: center;
+    color: #FFF;
+    font-size: 1.2rem;
+}
+
+footer a {
+    color: #FFF;
 }
 
 hr {
-    margin-top: 3vh;
-    margin-bottom: 3vh;
+    margin: 3vh 0;
 }
 
 @media screen and (max-width: 1100px) {

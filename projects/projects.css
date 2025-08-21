@@ -129,6 +129,21 @@ a {
     border-radius: 50%;
 }
 
+.CTA {
+    width: 100%;
+    text-align: center;
+}
+
+.CTA p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.CTA span {
+    margin: 2rem;
+    font-size: 1.5rem;
+}
+
 @media screen and (max-width: 1100px) {
     .header {
         display: flex;
@@ -145,7 +160,7 @@ a {
     }
 
     .mainHeading {
-        font-size: 7vh;
+        font-size: 3.2rem;
     }
 
     .subHeading {
@@ -190,5 +205,15 @@ a {
     .projectPara {
         margin-left: 0;
         text-indent: 0;
+    }
+
+    .CTA {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .CTA p {
+        text-align: left;
+        font-size: 1.5rem;
     }
 }

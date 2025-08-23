@@ -123,10 +123,13 @@ p {
     line-height: 1.5;
 }
 
-p::first-letter {
+.first::first-letter {
     color: #5B5BFF;
-    font-size: 6vh;
+    font-size: 5rem;
     font-weight: bolder;
+    line-height: 1;
+    float: left;
+    margin-right: 0.2rem;
 }
 
 .tag {
